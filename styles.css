@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 15rem;
+}
+
+button{
+    width:5em;
+    border-radius: 1em;
+}
+
+.display{
+    margin: 1.2em;
+    height: 5.5em;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    border: 2px solid black;
+    text-align: right;
+}
+
+.main{
+    background-color: gray;
+    width: 20rem;
+    height: 30rem;
+    border-radius: 1em;
+}
+.control{
+    text-align: center;
+    margin: 2em 1em 1em;
+}
+.control button{
+    height: 3.5em;
+    width: 49%;
+}
+
+.buttons{
+    display: flex;
+    height: 3em;
+    justify-content: space-around;
+    margin: 1em;
+}
